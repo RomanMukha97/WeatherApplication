@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(240,250,242,1);
+  background: -moz-linear-gradient(left, rgba(240,250,242,1) 0%, rgba(213,236,219,1) 45%, rgba(172,215,182,1) 51%, rgba(219,255,229,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(45,176,224,1)), color-stop(100%, rgba(96,40,168,1)));
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(240,250,242,1)), color-stop(45%, rgba(213,236,219,1)), color-stop(51%, rgba(172,215,182,1)), color-stop(100%, rgba(219,255,229,1)));
+  background: -webkit-linear-gradient(left, rgba(240,250,242,1) 0%, rgba(213,236,219,1) 45%, rgba(172,215,182,1) 51%, rgba(219,255,229,1) 100%);
+  background: -o-linear-gradient(left, rgba(240,250,242,1) 0%, rgba(213,236,219,1) 45%, rgba(172,215,182,1) 51%, rgba(219,255,229,1) 100%);
+  background: -ms-linear-gradient(left, rgba(240,250,242,1) 0%, rgba(213,236,219,1) 45%, rgba(172,215,182,1) 51%, rgba(219,255,229,1) 100%);
+  background: linear-gradient(to right, rgba(240,250,242,1) 0%, rgba(213,236,219,1) 45%, rgba(172,215,182,1) 51%, rgba(219,255,229,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0faf2', endColorstr='#dbffe5', GradientType=1 );
+}
+
+.main {
+  height: 55vh;
+  background: #5ABABA;
+  box-shadow: 0px 2px 80px -20px rgba(0,0,0,0.5);
+  width: 60%;
+  margin: 0 auto;
+}
+
+.info {
+  height: 55vh;
+  background: url("img/landscape.jpg") center center no-repeat;
+  background-blend-mode: multiply;
+  background-color:  #E9E9E7;
+  border: 2px solid #1f1f1f;
+  border-right: 2px solid #131e29;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+}
+
+.form {
+  height: 55vh;
+  padding-top: 50px;
+  padding-left: 50px;
+  border-top: 2px solid #113a65;
+  border-bottom: 2px solid #113a65;
+  border-right: 2px solid #113a65;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 2px #113a65;
+  width: 50%;
+  padding-bottom: 4px;
+  color: #fff;
+  font-weight: lighter;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #103a65;
+}
+
+input::-moz-placeholder {
+  color: #103a65;
+}
+
+button {
+  border: 2px solid #103a65;
+  border-bottom: 4px solid #103a65;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #4EBC7E; /*button color*/
+  color: #FFFD14;
+  outline: none!important;
+}
+
+button:hover {
+  border-bottom: 2px solid #103a65;
+  position: relative;
+  top: 2px;
+}
+
+button:active {
+  border-bottom: 2px solid transparent;
+  border-color: transparent;
+  position: relative;
+  top: 5px;
+}
+
+.info h2 {
+  font-size: 3em;
+  color: #fff;  /*color text in image*/
+}
+
+.info p {
+  font-size: 1em;
+  color: #fff; /*color text in image*/
+  font-weight: bold;
+}
+
+.infoWeath {
+  width: 60%;
+  font-size: 20px;
+  color: #FFFD14;
+}
+
+.error {
+  color: #DC143C;
+  font-weight: bold;
+}
